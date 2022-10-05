@@ -202,7 +202,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
     // delete the key-value pair with the given key
     public void delete(Key key) { 
         if (!contains(key)) {
-            System.err.println("symbol table does not contain " + key);
+           // System.err.println("symbol table does not contain " + key);
             return;
         }
 
